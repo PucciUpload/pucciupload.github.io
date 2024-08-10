@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mii Extractor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Extract Miis</h1>
+    <div id="uploader">
+        <form action="extract.php" method="POST" target="_blank" enctype="multipart/form-data">
+            <label for="database">Database File:</label><br>
+            <input type="file" name="database" required><br><br>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>
